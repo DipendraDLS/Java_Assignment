@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MultipleClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MultipleClient_jar</output-path>
+    <root id="archive" name="MultipleClient.jar">
+      <element id="module-output" name="MultipleClient" />
+    </root>
+  </artifact>
+</component>
