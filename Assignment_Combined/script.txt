@@ -1,0 +1,21 @@
+CREATE DATABASE Astronomy;
+USE Astronomy;
+CREATE TABLE planets
+(
+    id int NOT NULL AUTO_INCREMENT,
+    planet varchar(255),
+    mass Double,
+    distance Double,
+    gforce Double,
+    PRIMARY KEY (id)
+);
+
+INSERT INTO planets (planet, mass, distance)
+VALUES ('Mercury', '3.3e+23','57.9'),
+       ('Venus', '4.87e+24','108.2'),
+       ('Earth', '5.98e+24','149.6'),
+        ('Mars', '6.42e+23','227.9'),
+        ('Jupiter', '1.90e+27','778.3'),
+        ('Saturn', '5.69e+26','1427.0'),
+        ('Uranus', '8.68e+25','2871.0'),
+        ('Neptune', '1.02e+26','4497.1');
